@@ -1,6 +1,6 @@
 # Ansible Role: Sysctl
 
-[![Build Status](https://travis-ci.org/AttestationLegale/ansible-role-sysctl.svg?branch=master)](https://travis-ci.org/AttestationLegale/ansible-role-sysctl) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-sysctl-blue.svg)](https://galaxy.ansible.com/list#/roles/5400)
+[![Build Status](https://travis-ci.org/AttestationLegale/ansible-role-sysctl.svg?branch=master)](https://travis-ci.org/AttestationLegale/ansible-role-sysctl) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-sysctl-blue.svg)](https://galaxy.ansible.com/AttestationLegale/sysctl/)
 
 Manage `sysctl` settings.
 
@@ -9,6 +9,8 @@ Manage `sysctl` settings.
 None
 
 ## Role Variables
+
+For a complete list of variables, see `default/main.yml`.
 
 * `sysctl_settings`: [default: `[]`]: List of `sysctl` settings
 * `sysctl_settings.{n}.name`: [required]: Name of the setting
