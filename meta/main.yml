@@ -1,0 +1,23 @@
+# meta file for sysctl
+---
+galaxy_info:
+  author: Cyril Guillerminet
+  company: ALG
+  description: Manage sysctl settings
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.6
+  platforms:
+    - name: Ubuntu
+      versions:
+        - lucid
+        - precise
+        - trusty
+    - name: Debian
+      versions:
+        - squeeze
+        - wheezy
+        - jessie
+  galaxy_tags:
+    - system
+    - networking
+dependencies: []

@@ -1,0 +1,6 @@
+# defaults file for sysctl
+---
+
+sysctl_settings: []
+sysctl_group_settings: []
+sysctl_host_settings: []
